@@ -1,0 +1,26 @@
+header {
+    text-align: center;
+    background-color: #333;
+    color: #db1e1e;
+    padding: 20px;
+}
+
+.news-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+    color: #d0a5a5;
+}
+
+.news-item {
+    width: calc(33.33% - 20px);
+    margin: 10px;
+    border: 1px solid #ddd;
+    padding: 10px;
+}
+
+.news-item img {
+    max-width: 100%;
+    height: auto;
+}

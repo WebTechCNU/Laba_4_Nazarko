@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="icon" type="image/x-icon" href="images/лого/favicon-16x16.png">
+    <link rel="stylesheet" href="styles/відгуки.css">
+    <link rel="stylesheet" href="styles/my.css">
+    <link rel="stylesheet" href="styles/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+    <body>
+        <nav class="navbar navbar-expand-lg bg-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="/"><img src="data:image/png;base64,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"
+                        alt="..."></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+                <a class="navbar-brand" href="index.html">Головна</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="новини.html">Новини</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="опитувальник.html">Опитувальник</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="відгуки.html">Відгуки</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Профіль
+                    </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Зареєструватися</a></li>
+                                <li><a class="dropdown-item" href="#">Sign in</a></li>
+                                <div class="modal" id="my-modal">
+                                    <div class="modal__box">
+                                        <button class="modal__close-btn" id="close-my-modal-btn">
+                                                              <svg width="23" height="25" viewBox="0 0 23 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                                  <path d="M2.09082 0.03125L22.9999 22.0294L20.909 24.2292L-8.73579e-05 2.23106L2.09082 0.03125Z"
+                                                                      fill="#333333" />
+                                                                  <path d="M0 22.0295L20.9091 0.0314368L23 2.23125L2.09091 24.2294L0 22.0295Z" fill="#333333" />
+                                                              </svg>
+                                                          </button>
+                                        <h2>Авторизуватися</h2>
+                                        <div class="mb-3">
+                                            <label for="exampleInputEmail1" class="form-label">Email address</label>
+                                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                                            <div id="emailHelp" class="form-text"></div>
+                                        </div>
+                                        <div class="mb-3">
+                                            <label for="exampleInputPassword1" class="form-label">Password</label>
+                                            <input type="password" class="form-control" id="exampleInputPassword1">
+                                            <input type="checkbox" class="checkbox"><span>Запом'ятати пароль</span>
+                                        </div>
+                                        <button type="submit" class="btn btn-primary">Увійти</button>
+                                    </div>
+                                </div>
+                            </ul>
+                        </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+        <h1>Відгуки від користувачів</h1>
+
+        <form id="reviewForm">
+            <input type="text" id="name" placeholder="Ваше ім'я"><br>
+            <textarea id="comment" placeholder="Ваш відгук"></textarea><br>
+            <button type="submit">Додати відгук</button>
+        </form>
+
+        <div id="reviews">
+        </div>
+        <script src="my.js/вікно.js"></script>
+        <script src="my.js/відгуки.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    </body>
+    </body>
+
+</html>
